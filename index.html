@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camping Gear</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <!-- Header with Logo and Navigation -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Camping Gear">
+      <span>Camping Gear</span>
+    </div>
+    <nav class="navbar">
+        <nav>
+            <ul>
+              <li><a href="#Tents">Tents</a></li>
+              <li><a href="#Backpacks">Backpacks</a></li>
+              <li><a href="#Sleeping Bags">Sleeping Bags</a></li>
+              <li><a href="#Outdoor Cooking">Outdoor cooking</a></li>
+            </ul>
+            <input type="text" id="search" placeholder="Search products...">
+    </nav></nav>
+  </header>
+  <!-- Main Content: Product Categories -->
+  <main>
+    <section id="Tents" class="category">
+      <h2>Tents</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/tent5.jpg" alt="Tents Product">
+          <p>tent - $2.99</p>
+          <button onclick="addToCart('tents', 5.99)">Add to Cart</button>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="images/tentt.jpg" alt="Tent Product">
+            <p>tent - $4.99</p>
+            <button onclick="addToCart(' Tent', 5.99)">Add to Cart</button>
+          </div>
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/tent3.jpg" alt="Tent Product">
+              <p> Tents - $9</p>
+              <button onclick="addToCart('Tent', 5.99)">Add to Cart</button>
+            </div>
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/Tent4.jpg" alt="Tent Product">
+              <p>tent - $3.99</p>
+              <button onclick="addToCart('tent', 5.99)">Add to Cart</button>
+            </div>
+      </div>
+    </section>
+
+    <section id="Backpacks" class="category">
+      <h2>Backpacks</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/bag1.jpg" alt=" Backpacks Product">
+          <p>Backpacks - $8.99</p>
+          <button onclick="addToCart('Backpacks', 8.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/bag2.jpg" alt="Backpacks">
+          <p>Backpacks - $12</p>
+          <button onclick="addToCart('Backpacks', 8.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/out4.jpg" alt="Backpacks Product">
+            <p>Backpacks - $14.77</p>
+            <button onclick="addToCart('Backpacks', 8.99)">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="images/bag4.jpg" alt="Backpacks Product">
+            <p>Backpacks - $2</p>
+            <button onclick="addToCart('Backpacks', 8.99)">Add to Cart</button>
+          </div>
+      </div>
+    </section>
+
+    <section id="Sleeping Bags" class="category">
+      <h2>Sleeping Bags</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          
+          <img src="images/sleep1.jpg" alt="Sleeping Bags Product">
+
+          <p>Sleeping Bags - $4.99</p>
+          <button onclick="addToCart('Sleeping Bags', 4.99)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          
+          <img src="images/sleep5.jpg" alt="Sleeping Bags">
+
+          <p>Sleeping Bags - $7</p>
+          <button onclick="addToCart('Sleeping Bags', 4.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+           
+            <img src="images/sleep6.jpg" alt=" Product">
+  
+            <p>Sleeping Bags - $10</p>
+            <button onclick="addToCart('Sleeping Bags', 4.99)">Add to Cart</button>
+          </div>
+          <div class="product-card">
+           
+            <img src="images/sleep7.jpg" alt="Sleeping Bags Product">
+  
+            <p>Sleeping Bags - $6.99</p>
+            <button onclick="addToCart('Sleeping Bags', 4.99)">Add to Cart</button>
+          </div>
+      </div>
+    </section>
+
+    <section id=" Outdoor Cooking" class="category">
+      <h2> Outdoor Cooking</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/out1.jpg" alt=" Outdoor Cooking Product">
+          
+
+          <p> Outdoor Cooking - $1.99</p>
+          <button onclick="addToCart(' Outdoor Cooking', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/out2.jpg" alt=" Outdoor Cooking Product">
+          
+
+          <p> Outdoor Cooking - $2.99</p>
+          <button onclick="addToCart(' Outdoor Cooking', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/out3.jpg" alt=" Outdoor Cooking Product">
+          
+
+          <p> Outdoor Cooking - $7.9</p>
+          <button onclick="addToCart(' Outdoor Cooking', 1.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/out5.jpg" alt=" Outdoor Cooking Product">
+          
+
+          <p> Outdoor Cooking - $11.99</p>
+          <button onclick="addToCart(' Outdoor Cooking', 1.99)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+
+<footer>
+  
+<div class="footer">
+  <div class="footer-container">
+      <div class="footer-column">
+          <h3>ABOUT US</h3>
+          <div class="footer-logo">
+          </div>
+          <p>GOGOstore is a leading eCommerce platform in Rwanda that sells millions of selected items.</p>
+          <a href="#" class="read-more">read more...</a>
+      </div>
+
+      <div class="footer-column">
+          <h3>CONTACT INFO</h3>
+          <p><strong>ADDRESS:</strong> Kigali, MAKUZA CITY </p>
+          <p><strong>PHONE:</strong> +250 782 013 955</p>
+          <p><strong>EMAIL:</strong> GOGOstore@gmail.com</p>
+          <p><strong>WORKING DAYS/HOURS:</strong> Mon - Sun / 9:00 AM - 8:00 PM</p>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+
+      <div class="footer-column">
+          <h3>CUSTOMER SERVive</h3>
+          <ul>
+              <li>CONTACT</li>
+              <li>0790899801</li>
+              <li>My Account</li>
+              <li>unadine02@gmail.com</li>
+          </ul>
+      </div>
+
+      <div class="footer-column">
+          <h3>POPULAR TAGS</h3>
+          <div class="tags">
+              <a href="#">Tents</a>
+              <a href="#">Backpacks</a>
+              <a href="#">Sleeping Bages</a>
+              <a href="#">Outdoor Cooking</a>
+              <a href="#">Fashion</a>
+             
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Campany Gear. All rights reserved.</p>
+      <div class="payment-methods">
+          <img src="images/logo.jpg" alt="Camping Gear">
+      </div>
+  </div>
+   
+  </footer>
+</body>
+</html>
